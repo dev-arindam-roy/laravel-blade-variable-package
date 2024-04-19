@@ -29,7 +29,7 @@ Arindam\BladeVariable\BladeVariableServiceProvider::class,
 @var('myname', 'Arindam')
 
 //use it
-<h1>{{ $myname}}</h1>
+<h1>{{ $myname }}</h1>
 ```
 
 ```php
@@ -37,13 +37,13 @@ Arindam\BladeVariable\BladeVariableServiceProvider::class,
 @var('myAge', 36)
 
 //use it
-<p>Age is : {{ $myAge}}</p>
+<p>Age is : {{ $myAge }}</p>
 ```
 
 ## license:
-The MIT License (MIT). Please see [License File](https://github.com/dev-arindam-roy/laravel-svg-package/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/dev-arindam-roy/laravel-blade-variable-package/blob/master/LICENSE) for more information.
 
 ## Post Issues: if found any
-If have any issue please [write me](https://github.com/dev-arindam-roy/laravel-svg-package/issues).
+If have any issue please [write me](https://github.com/dev-arindam-roy/laravel-blade-variable-package/issues).
 
 
