@@ -1,0 +1,34 @@
+{
+    "name": "arindam/blade-variable",
+    "description": "A laravel package define variables in blade template",
+    "type": "laravel-package",
+    "license": "MIT",
+    "keywords": [
+        "dev-arindam-roy",
+        "devarindam",
+        "blade-variable",
+        "arindam-roy"
+    ],
+    "authors": [
+        {
+            "name": "Arindam Roy",
+            "email": "arindam.roy.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arindam\\Svg\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arindam\\BladeVariable\\BladeVariableServiceProvider"
+            ]
+        }
+    }
+}
